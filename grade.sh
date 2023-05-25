@@ -14,3 +14,16 @@ echo 'Finished cloning'
 
 # Then, add here code to compile and run, and do any post-processing of the
 # tests
+
+if [[ -f student-submission/ListExamples.java ]]
+then
+    echo 'ListExamples.java found'
+else
+    echo 'ListExamples.java found'
+    echo 'Score: 0/4'
+    exit(1)
+f1
+
+cp student-submission/ListExamples.java ./GradingArea
+
+javac -cp $CPATH
